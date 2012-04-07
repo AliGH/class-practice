@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<input type="text" value="4" size="5" id="mm" style="margin-left:15px;" />
+<input type="button" onClick="multitbl(m,n)" value="IN"  style="margin-left:30px;" />
+<input type="text" value="3" size="5" id="nn" style="margin-top:30px; margin-left:30px;" />
+<script type="text/javascript">
+var m=document.getElementById('mm').value;
+var n=document.getElementById('nn').value;
+/*m=prompt('Enter the number','2');
+n=prompt('Enter the number','5')*/
+function multitbl(m,n){
+	document.write("<table border='1'>");
+	for (var i=1; i<=m; i++){
+		document.write("<tr>");
+		for (var j=1; j<=n; j++)
+		document.write('<td>' + (i*j) + '</td>');
+		document.write('</tr>');
+	}
+	document.write("</table>");
+}
+//multitbl(m,n);
+
+</script>
+</body>
+</html>
