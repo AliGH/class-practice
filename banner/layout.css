@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+div.container{
+	margin:0 auto;
+	width:980px;
+}
+
+div.container div.banner{
+	width:980px;
+	overflow:hidden;
+	height:500px;
+	position:relative;
+	margin-top:70px;
+}
+
+div.container div.banner div.scroll{
+	
+	width:5000px;
+	height:450px;
+	position:absolute;
+	left:0;
+	top:0;
+	-webkit-transition:all 1s;
+}
+
+div.container div.banner div.scroll > div{
+	float:left;
+	margin-right:5px;
+	width:980px;
+	height:inherit;
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+div.container div.banner div.scroll  div.img1{
+	background-color:pink;
+}
+
+div.container div.banner div.scroll  div.img2{
+	background-color:green;
+}
+
+div.container div.banner div.scroll  div.img3{
+	background-color:blue;
+}
+
+div.container div.banner div.scroll  div.img4{
+	background-color:yellow;
+}
+
+div.btn{
+	position:absolute;
+	bottom:58px;
+	right:5px;
+}
+
+div.btn ul{
+	list-style-type:none;
+}
+
+div.btn ul li{
+	width:14px;
+	height:14px;
+	-webkit-border-radius:50px;
+	background-color:gray;
+	float:left;
+	margin-right:4px;
+	cursor:pointer;
+	-webkit-transition:all 1s;
+	-webkit-border-shadow:1px 1px 1px black;
+}
+
+div.btn ul li:hover{
+	background-color:red;
+	width:20px;
+	height:20px;
+}
