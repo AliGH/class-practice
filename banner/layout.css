@@ -19,9 +19,8 @@ div.container div.banner{
 }
 
 div.container div.banner div.scroll{
-	
-	width:5000px;
-	height:450px;
+	width:980px;
+	height:500px;
 	position:absolute;
 	left:0;
 	top:0;
@@ -53,30 +52,30 @@ div.container div.banner div.scroll  div.img4{
 	background-color:yellow;
 }
 
-div.btn{
+div.banner ul.btn{
 	position:absolute;
-	bottom:58px;
-	right:5px;
-}
-
-div.btn ul{
+	bottom:0;
+	right:0;
 	list-style-type:none;
+	height:88px;
+	width:23px;
 }
 
-div.btn ul li{
+div.banner ul.btn li{
 	width:14px;
 	height:14px;
 	-webkit-border-radius:50px;
 	background-color:gray;
-	float:left;
-	margin-right:4px;
+	margin-top:4px;
 	cursor:pointer;
-	-webkit-transition:all 1s;
+	-webkit-transition:all 600ms;
 	-webkit-border-shadow:1px 1px 1px black;
 }
 
-div.btn ul li:hover{
-	background-color:red;
-	width:20px;
-	height:20px;
+div.banner ul.btn li:hover{
+	background-color:#FF0000;
+}
+
+div.banner ul.btn li:active{
+	background-color:#C00;
 }
