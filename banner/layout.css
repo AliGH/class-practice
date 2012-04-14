@@ -5,37 +5,43 @@
 	padding:0;
 }
 
+body{
+	background-color:#CACACA;
+}
+
 div.container{
 	margin:0 auto;
-	width:980px;
+	width:979px;
 }
 
 div.container div.banner{
 	width:980px;
-	/*overflow:hidden;*/
-	height:500px;
+	overflow:hidden;
+	height:519px;
 	position:relative;
 	margin-top:70px;
-	background-image:url(images/Brown-apple.jpg);
+	background-image:url(images/back.png);
+	background-repeat:no-repeat;
+	-webkit-box-shadow:2px 6px 15px 5px #462300;
 }
 
 div.container div.banner div.scroll{
-	width:980px;
+	width:5000px;
 	height:500px;
 	position:absolute;
 	left:0;
 	top:0;
-	-webkit-transition:all 1s;
+	-webkit-transition:all 800ms;
+	-webkit-transition-timing-function:ease-in-out;
+	margin-top:25px;
 }
 
 div.container div.banner div.scroll > div{
 	float:left;
-	margin-right:5px;
 	width:980px;
 	height:inherit;
-	background-position:left top;
+	background-position:right top;
 	background-repeat:no-repeat;
-
 }
 
 div.container div.banner div.scroll  div.img1{
@@ -55,56 +61,65 @@ div.container div.banner div.scroll  div.img4{
 }
 
 div.container div.banner div.text{
-	width:950px;
-	height:100px;
+	width:500px;
+	height:500px;
 	position:absolute;
 	left:0;
 	top:0;
-	-webkit-transition:all 1s;
+	-webkit-transition-delay:500ms;
+	-webkit-transition-duration:700ms;
+	-webkit-transition-timing-function:ease-out;
+	padding-top:1px;
 }
 
 div.container div.banner div.text > div{
-	margin-right:5px;
-	min-width:200px;
-	height:inherit;
-	margin-top:400px;
+	min-width:980px;
+	height:500px;
+	margin-top:170px;
+	margin-left:25px;
+}
+
+div.container div.banner div.text  p{
+	color:#91C8C8;
+	font-size:20px;
+	font-family:"Comic Sans MS", cursive;
+}
+
+div.container div.banner div.text  h3{
+	color:#00D7D7;
+	font-size:25px;
+	font-family:"Courier New", Courier, monospace;
 }
 
 div.container div.banner div.text div.txt1{
-	background-color:#C1FFC1;
 }
 
 div.container div.banner div.text div.txt2{
-	background-color:#C1FFC1;
 }
 
 div.container div.banner div.text div.txt3{
-	background-color:#C1FFC1;
 }
 
 div.container div.banner div.text div.txt4{
-	background-color:#C1FFC1;
 }
 
 div.banner ul.btn{
-	position:absolute;
-	bottom:0;
-	right:0;
 	list-style-type:none;
-	height:88px;
-	width:23px;
-	z-index:6;
+	width:90px;
+	position:absolute;
+	right:0;
+	bottom:8px;
 }
 
 div.banner ul.btn li{
+	float:left;
 	width:14px;
 	height:14px;
 	-webkit-border-radius:50px;
-	background-color:gray;
-	margin-top:4px;
+	margin-right:5px;
+	background-color:#71FFFF;
 	cursor:pointer;
-	-webkit-transition:all 600ms;
-	-webkit-border-shadow:1px 1px 1px black;
+	-webkit-transition:all 800ms;
 }
 
 div.banner ul.btn li:hover{
