@@ -12,10 +12,11 @@ div.container{
 
 div.container div.banner{
 	width:980px;
-	overflow:hidden;
+	/*overflow:hidden;*/
 	height:500px;
 	position:relative;
 	margin-top:70px;
+	background-image:url(images/Brown-apple.jpg);
 }
 
 div.container div.banner div.scroll{
@@ -34,22 +35,55 @@ div.container div.banner div.scroll > div{
 	height:inherit;
 	background-position:left top;
 	background-repeat:no-repeat;
+
 }
 
 div.container div.banner div.scroll  div.img1{
-	background-color:pink;
+	background-image:url(images/1.png);
 }
 
 div.container div.banner div.scroll  div.img2{
-	background-color:green;
+	background-image:url(images/2.png);
 }
 
 div.container div.banner div.scroll  div.img3{
-	background-color:blue;
+	background-image:url(images/3.png);
 }
 
 div.container div.banner div.scroll  div.img4{
-	background-color:yellow;
+	background-image:url(images/4.png);
+}
+
+div.container div.banner div.text{
+	width:950px;
+	height:100px;
+	position:absolute;
+	left:0;
+	top:0;
+	-webkit-transition:all 1s;
+}
+
+div.container div.banner div.text > div{
+	margin-right:5px;
+	min-width:200px;
+	height:inherit;
+	margin-top:400px;
+}
+
+div.container div.banner div.text div.txt1{
+	background-color:#C1FFC1;
+}
+
+div.container div.banner div.text div.txt2{
+	background-color:#C1FFC1;
+}
+
+div.container div.banner div.text div.txt3{
+	background-color:#C1FFC1;
+}
+
+div.container div.banner div.text div.txt4{
+	background-color:#C1FFC1;
 }
 
 div.banner ul.btn{
@@ -59,6 +93,7 @@ div.banner ul.btn{
 	list-style-type:none;
 	height:88px;
 	width:23px;
+	z-index:6;
 }
 
 div.banner ul.btn li{
