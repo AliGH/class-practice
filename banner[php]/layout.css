@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#CACACA;
+}
+
+div.container{
+	margin:0 auto;
+	width:979px;
+}
+
+div.container div.banner{
+	width:980px;
+	overflow:hidden;
+	height:519px;
+	position:relative;
+	margin-top:70px;
+	background-image:url(images/back.png);
+	background-repeat:no-repeat;
+	-webkit-box-shadow:2px 6px 15px 5px #462300;
+}
+
+div.container div.banner div.scroll{
+	width:5000px;
+	height:500px;
+	position:absolute;
+	left:0;
+	top:0;
+	-webkit-transition:all 800ms;
+	-webkit-transition-timing-function:ease-in-out;
+	margin-top:25px;
+}
+
+div.container div.banner div.scroll > div{
+	float:left;
+	width:980px;
+	height:inherit;
+	background-position:right top;
+	background-repeat:no-repeat;
+}
+
+div.container div.banner div.scroll  div.img1{
+	background-image:url(images/1.png);
+}
+
+div.container div.banner div.scroll  div.img2{
+	background-image:url(images/2.png);
+}
+
+div.container div.banner div.scroll  div.img3{
+	background-image:url(images/3.png);
+}
+
+div.container div.banner div.scroll  div.img4{
+	background-image:url(images/4.png);
+}
+
+div.container div.banner div.text{
+	width:500px;
+	height:500px;
+	position:absolute;
+	left:0;
+	top:0;
+	-webkit-transition-delay:500ms;
+	-webkit-transition-duration:700ms;
+	-webkit-transition-timing-function:ease-out;
+	padding-top:1px;
+}
+
+div.container div.banner div.text > div{
+	min-width:980px;
+	height:500px;
+	margin-top:170px;
+	margin-left:25px;
+}
+
+div.container div.banner div.text  p{
+	color:#91C8C8;
+	font-size:20px;
+	font-family:"Comic Sans MS", cursive;
+}
+
+div.container div.banner div.text  h3{
+	color:#00D7D7;
+	font-size:25px;
+	font-family:"Courier New", Courier, monospace;
+}
+
+div.container div.banner div.text div.txt1{
+}
+
+div.container div.banner div.text div.txt2{
+}
+
+div.container div.banner div.text div.txt3{
+}
+
+div.container div.banner div.text div.txt4{
+}
+
+div.banner ul.btn{
+	list-style-type:none;
+	width:90px;
+	position:absolute;
+	right:0;
+	bottom:8px;
+}
+
+div.banner ul.btn li{
+	float:left;
+	width:14px;
+	height:14px;
+	-webkit-border-radius:50px;
+	margin-right:5px;
+	background-color:#71FFFF;
+	cursor:pointer;
+	-webkit-transition:all 800ms;
+}
+
+div.banner ul.btn li:hover{
+	background-color:#FF0000;
+}
+
+div.banner ul.btn li:active{
+	background-color:#C00;
+}

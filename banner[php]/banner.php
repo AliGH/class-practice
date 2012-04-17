@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link type="text/css" rel="stylesheet" href="layout.css" />
+<script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="banner">
+			<div class="scroll">
+				<div class="img1"></div>
+				<div class="img2"></div>
+				<div class="img3"></div>
+				<div class="img4"></div>
+			</div>
+			<div class="text">
+					<div class="txt1">
+						<h3>Camera Enhancements</h3>
+						<br />
+						<p>Now you can access the Camera app right from the lock screen. 
+							<br />
+						Just press the volume-up button, point, and shoot.</p>
+					</div>
+					<div class="txt2">
+						<h3>Safari</h3>
+						<br />
+						<p>Reader displays web articles without ads or cutter. 
+							<br />
+						And reading list lets you save article links to peruse later.</p>
+					</div>
+					<div class="txt3">
+						<h3>PC Free</h3>
+						<br />
+						<p>You can activate and set up your iPhone wirelessly, right out of the box. 
+							<br />
+						without the need for a Mac or PC.</p>
+					</div>
+					<div class="txt4">
+					<h3>Newsstand</h3>
+						<br />
+						<p>Find all your newspaper and magazine apps here.
+							<br />
+						 Even subscribe to something new.</p>
+					</div>
+				</div>
+				<ul class="btn">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+		</div>
+	</div>
+</body>
+</html>
