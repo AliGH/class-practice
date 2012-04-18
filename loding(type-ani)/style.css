@@ -1,0 +1,50 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-color:black;
+}
+
+div.loading h1{
+	margin-top:10px;
+	color:#FFF;
+	position:relative;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	white-space:nowrap;
+}
+
+@-webkit-keyframes typ{
+	from { width: 100% }
+    to { width:0 }
+}
+
+
+div.loading h1 span{
+	position:absolute;
+	width:0;
+	top:0;
+	right:0;
+	box-sizing:border-box;
+	background-color:black;
+	/*-webkit-animation: typ 12s steps(400, end),infinite;*/
+}
+
+div.loading p{
+	color:#00FF00;
+	position:relative;
+	font-size:15px;
+	font-family:"Courier New", Courier, monospace;
+	white-space:nowrap;
+}
+
+div.loading p span{
+	position:absolute;
+	width:0;
+	top:0;
+	right:0;
+	border:2px red solid
+	-webkit-box-sizing:border-box;
+	background-color:black;
+	-webkit-animation: typ 10s steps(98, end),infinite;
+}
