@@ -2,6 +2,7 @@
 	padding:0;
 	margin:0;
 }
+
 body{
 	background-color:black;
 }
@@ -12,6 +13,7 @@ div.loading h1{
 	position:relative;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	white-space:nowrap;
+	float:left;
 }
 
 @-webkit-keyframes typ{
@@ -19,15 +21,20 @@ div.loading h1{
     to { width:0 }
 }
 
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: green }	
+}
 
 div.loading h1 span{
 	position:absolute;
 	width:0;
 	top:0;
 	right:0;
+	float:left;
 	box-sizing:border-box;
 	background-color:black;
-	/*-webkit-animation: typ 12s steps(400, end),infinite;*/
+	-webkit-animation: typ 4s steps(200, end),infinite;
 }
 
 div.loading p{
@@ -36,15 +43,19 @@ div.loading p{
 	font-size:15px;
 	font-family:"Courier New", Courier, monospace;
 	white-space:nowrap;
+	float:left;
 }
 
 div.loading p span{
 	position:absolute;
+	float:left;
+	clear:both;
 	width:0;
 	top:0;
 	right:0;
-	border:2px red solid
-	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+	border-left: 4px solid;
 	background-color:black;
-	-webkit-animation: typ 10s steps(98, end),infinite;
+	-webkit-animation: typ 2s steps(20, end),blink-caret 1s step-end infinite;
+	/*how to put a dely for animation????*/
 }
