@@ -25,15 +25,49 @@ div.container div.banner{
 	-webkit-box-shadow:2px 6px 15px 5px #462300;
 }
 
+div.container div.media{
+	height:38px;
+	width:150px;
+	position:absolute;
+	top:3px;
+	left:420px;
+	z-index:3;
+}
+
+div.container div.media > div{
+	float:left;
+	margin-right:5px;
+	margin-top:6px;
+	height:26px;
+	width:26px;
+	background-repeat:no-repeat;
+	-webkit-border-radius:15px;
+	cursor:pointer;
+	background-image:url(images/media-button.png);
+}
+
+#back{
+	background-position:right top;
+}
+
+#play{
+	background-position:center -1px;
+}
+
+#next{
+	background-position:-90px top;
+}
+
 div.container div.banner div.scroll{
-	width:5000px;
 	height:500px;
 	position:absolute;
 	left:0;
 	top:0;
+	z-index:1;
 	-webkit-transition:all 800ms;
 	-webkit-transition-timing-function:ease-in-out;
 	margin-top:25px;
+	margin-left:30px;
 }
 
 div.container div.banner div.scroll > div{
@@ -42,22 +76,6 @@ div.container div.banner div.scroll > div{
 	height:inherit;
 	background-position:right top;
 	background-repeat:no-repeat;
-}
-
-div.container div.banner div.scroll  div.img1{
-	background-image:url(images/1.png);
-}
-
-div.container div.banner div.scroll  div.img2{
-	background-image:url(images/2.png);
-}
-
-div.container div.banner div.scroll  div.img3{
-	background-image:url(images/3.png);
-}
-
-div.container div.banner div.scroll  div.img4{
-	background-image:url(images/4.png);
 }
 
 div.container div.banner div.text{
@@ -70,13 +88,13 @@ div.container div.banner div.text{
 	-webkit-transition-duration:700ms;
 	-webkit-transition-timing-function:ease-out;
 	padding-top:1px;
+	margin-left:290px;
 }
 
 div.container div.banner div.text > div{
 	min-width:980px;
 	height:500px;
 	margin-top:170px;
-	margin-left:25px;
 }
 
 div.container div.banner div.text  p{
@@ -105,10 +123,10 @@ div.container div.banner div.text div.txt4{
 
 div.banner ul.btn{
 	list-style-type:none;
-	width:90px;
 	position:absolute;
-	right:0;
+	left:10px;
 	bottom:8px;
+	z-index:2;
 }
 
 div.banner ul.btn li{

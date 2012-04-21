@@ -9,11 +9,26 @@
 <body>
 	<div class="container">
 		<div class="banner">
+			<div class="media">
+				<div id="back" onClick="prvSlide()"></div>
+				<div id="play"></div>
+				<div id="next" onClick="nextSlide()"></div>
+			</div>
 			<div class="scroll">
-				<div class="img1"></div>
-				<div class="img2"></div>
-				<div class="img3"></div>
-				<div class="img4"></div>
+				<?php
+				$counter = 0;
+					$dir = './images/banner1';
+					$sup_type = array('jpg','png','jpeg','gif'); 
+					
+					$d = dir($dir);
+					while( $f=$d->read() ){
+						$f_type = end (explode('.',$f) );
+						 if( !in_array(strtolower($f_type),$sup_type) ) continue;
+						echo "<div><img src='./images/banner1/$f' /></div>";
+						$counter ++;
+					}
+					
+				?>
 			</div>
 			<div class="text">
 					<div class="txt1">
@@ -46,12 +61,15 @@
 					</div>
 				</div>
 				<ul class="btn">
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<?php
+						for ($i=0;$i<$counter;$i++) {
+							echo "<li></li>";
+						}
+					?>
 				</ul>
 		</div>
+			<!--<input type="button" id="back" value="Back" onClick="prvSlide()" />
+			<input type="button" id="next" value="Next" onClick="nextSlide()" />-->
 	</div>
 </body>
 </html>
