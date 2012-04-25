@@ -37,7 +37,7 @@ window.onload = function(){
 			}
 		})(i);		
 	}
-	
+	/* ACTIVE WITH CSS3 :))
 	document.getElementById('next').onmousedown = function(){
 		document.getElementById('next').style.backgroundPosition = '-90px bottom';
 	}
@@ -71,7 +71,7 @@ window.onload = function(){
 		setInterval(nextSlide,3500);
 	}
 	
-	/*document.getElementById('play').onmouseup = function(){
+	document.getElementById('play').onmouseup = function(){
 		document.getElementById('play').style.backgroundPosition = 'center -1px';
 	}
 	

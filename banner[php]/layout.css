@@ -57,7 +57,9 @@ div.container div.media > div{
 #next{
 	background-position:-90px top;
 }
-
+#next:active{
+	background-position:90px top;
+}
 div.container div.banner div.scroll{
 	height:500px;
 	position:absolute;
