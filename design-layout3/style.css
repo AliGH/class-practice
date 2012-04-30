@@ -1,0 +1,178 @@
+/* Somthing else */
+
+body{
+	background-image:url(image/back.png);
+	background-repeat:no-repeat;
+	min-height:1342px;
+}
+body > div{
+	outline:1px green solid;
+}
+
+body > div > div{
+	outline:1px red solid;
+}
+
+body > div > div > div{
+	outline:1px magenta solid;
+}
+
+body > div > div > div{
+	outline:1px blue solid;
+}
+
+body > div > div > div > div{
+	outline:2px #999933 dotted;
+}
+
+body > div > div > div > div > div{
+	outline:2px darkmagenta double;
+}
+
+.header{
+	min-height:115px;
+}
+
+.header .address{
+	min-height:30px;
+}
+
+.header .nav{
+	min-height:75px;
+}
+
+.header .nav .logo{
+	min-height:48px;
+}
+
+.header .nav .menu{
+	min-height:48px;
+}
+
+.content{
+	min-height:425px;
+}
+
+.content .text-banner{
+	min-height:370px;
+	position:relative;
+}
+
+.content .text-banner .more{
+	min-height:14px;
+	position:absolute;
+	bottom:0;
+	width:100px;
+}
+
+.content .banner{
+	min-height:350px;
+	margin-left:20px;
+	margin-right:260px;
+	
+}
+
+.content .banner .image{
+	position:relative;
+	min-height:inherit;
+}
+
+.content .banner .image .text{
+	min-height:30px;
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+
+.content .banner .image .butt{
+	height:22px;
+	position:absolute;
+	bottom:15px;
+	left:635px;
+}
+
+.content .banner .image .li{
+	height:22px;
+	position:absolute;
+	bottom:15px;
+	right:70px;
+}
+
+.news{
+	min-height:305px;
+}
+
+.about{
+	min-height:20px;
+}
+
+.news .image{
+	min-height:250px;
+}
+
+.news .news-container > div{
+	min-height:210px;
+	width:220px;
+	margin-left:20px;
+}
+
+.news .news-container .image4{
+	margin-left:740px;
+	float:none;
+}
+
+.news .news-container > div .img{
+	min-height:138px;
+}
+
+.news .news-container > div .txt{
+	min-height:45px;
+}
+
+
+.footer{
+	min-height:330px;
+}
+
+.footer .blog{
+	min-height:280px;
+	margin-left:15px;
+}
+
+.footer .blog .img1{
+	min-height:45px;
+	margin-left:7px;
+	margin-top:24px;
+	width:42px;
+}
+
+.footer .blog .txt1{
+	min-height:105px;
+	margin-left:60px;
+	margin-top:20px;
+}
+
+.footer .blog .img2{
+	min-height:45px;
+	margin-left:7px;
+	margin-top:30px;
+	width:42px;
+}
+
+.footer .blog .txt2{
+	min-height:105px;
+	margin-left:60px;
+	margin-top:25px;
+
+}
+
+.footer .twitter{
+	min-height:280px;
+	margin-left:500px;
+	margin-right:260px;
+}
+
+.footer .flickr{
+	min-height:280px;
+	margin-left:15px;
+}
