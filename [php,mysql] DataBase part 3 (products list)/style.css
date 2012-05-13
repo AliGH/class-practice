@@ -1,0 +1,69 @@
+
+body{
+	background-image:url(images/back.jpg);
+	line-height:130%;
+}
+/* Book list
+-------------------------------------------------- */
+
+div.booklist{
+	
+}
+
+div.booklist h1{
+	margin-bottom: 25px;
+}
+
+div.booklist div.book{
+	margin-bottom: 25px;
+	/*width:300px;*/
+	margin-top:1000px;
+}
+
+div.booklist .title{
+	
+}
+
+div.booklist .pic{
+	display : block;
+	float   : left;
+	width   : 60px;
+	height  :auto;
+	margin-top:10px;
+}
+
+div.booklist .text{
+	margin-left : 70px;
+	color:#FFF;
+	background-color:#222;
+	opacity:.5;
+	-webkit-border-radius:0 20px 0 20px;
+	padding:10px;
+	-webkit-transition:all 500ms;
+	-webkit-box-shadow:2px 4px 8px 5px black;
+	margin-top:10px;
+}
+
+div.booklist .text:hover{
+	opacity:.9;
+	-webkit-border-radius:20px 0  20px 0;	
+}
+
+div.booklist .author{
+	display : block;
+}
+div.booklist .price{
+	display : block;
+	text-align: right;
+	font-weight:bold;
+	font-size:16px;
+	margin-top: 10px;
+}
+
+div.booklist .more{
+	display : block;
+	text-align: right;
+	font-weight:bold;
+	font-size:16px;
+	margin-top: 10px;
+}
