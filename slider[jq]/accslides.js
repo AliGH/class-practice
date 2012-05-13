@@ -1,11 +1,13 @@
 $(function(){
 	
 	var imgTags = $('.slider .scroll > div');
+
+	imgTags.last().css({'padding-right':'200px'});
 	
 	imgTags.mouseover(function(){
 		
 		imgTags.stop().animate({
-			'width':'50px'
+			'width':'40px'
 			},650);
 				
 		$(this).stop().animate({
@@ -17,7 +19,7 @@ $(function(){
 	imgTags.mouseout(function(){
 		
 		imgTags.stop().animate({
-			'width':'150px'
+			'width':'110px'
 		},400);
 		
 	});

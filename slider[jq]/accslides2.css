@@ -15,7 +15,9 @@ body{
 .slider .scroll > div{
 		height:inherit;
 		overflow:hidden;
-		border-left:5px black solid;	
+		border-left:5px black solid;
+		cursor:pointer;
+		position:relative;
 }
 
 .slider .scroll > div img{
@@ -27,4 +29,27 @@ body{
 
 .slider .scroll > div img:hover{
 	opacity:1;
+}
+
+.txt{
+	width:450px;
+}
+
+.txt .header{
+	position:absolute;
+	top:0;
+	left:0;
+	color:red;
+	background-color:black;
+	opacity:.6;
+	-webkit-transform-origin:left top;
+	-webkit-transform: translateY(300px) rotate(-90deg);
+	text-align:center;
+	padding-top:5px;
+	width:300px;
+	height:36px;
+	z-index:-1;
+	font-family:"Comic Sans MS", cursive;
+	font-style:italic;
+	font-variant:small-caps;
 }
