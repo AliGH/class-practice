@@ -52,6 +52,7 @@ div.booklist .text:hover{
 div.booklist .author{
 	display : block;
 }
+
 div.booklist .price{
 	display : block;
 	text-align: right;

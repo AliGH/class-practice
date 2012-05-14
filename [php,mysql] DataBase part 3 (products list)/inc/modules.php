@@ -60,10 +60,10 @@ function show_books($books){
 			<h2 class='title'>$book[name]</h2>
 			<img class='pic' src='images/$book[img]' alt='$book[name]' />
 			<div class='text'>
-				<span class='author'>Author : $book[author]</span>
+				<span class='author'><b>Author :</b> $book[author]</span>
 				$book[desc]
 				<span class='price'>$book[price] $</span>
-				<span class='more'><a href='javascript:void(0)'>More...</a></span>
+				<span class='more'><a href='#'>More...</a></span>
 			</div>
 			<div class='clear'></div>
 		</div>
