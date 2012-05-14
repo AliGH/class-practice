@@ -63,8 +63,8 @@ function show_books($books){
 				<span class='author'><b>Author :</b> $book[author]</span>
 				$book[desc]
 				<span class='price'>$book[price] $</span>
-				<span class='readmore'>v</span>
-				<div class='more'>$book[more]</div>
+				<span class='readmore'>More...</span>
+				<div class='more'><!--$book[more]--></div>
 			</div>
 			<div class='clear'></div>
 		</div>

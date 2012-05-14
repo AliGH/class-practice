@@ -10,7 +10,10 @@ $(function(){
 	});
 	
 	$('.readmore').click(function(){
-		$('.more').slideToggle('fast');
+		$('.more').fadeTo(1000,.8);
+	});
+	$('.more').click(function(){
+		$('.more').fadeOut(500);
 	});
 			
 });
