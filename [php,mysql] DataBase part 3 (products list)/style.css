@@ -61,10 +61,27 @@ div.booklist .price{
 	margin-top: 10px;
 }
 
+div.booklist .readmore{
+	cursor:pointer;
+	font-size:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#06F;
+}
+
+div.booklist .readmore:hover{
+	text-decoration:underline;	
+}
+
+div.booklist .readmore:active{
+	text-decoration:underline;
+	color:#900;	
+}
+
 div.booklist .more{
-	display : block;
+	display : none;
 	text-align: right;
 	font-weight:bold;
 	font-size:16px;
 	margin-top: 10px;
+	
 }
