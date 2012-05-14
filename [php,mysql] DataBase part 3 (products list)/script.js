@@ -6,7 +6,7 @@ $(function(){
 	$('.book:odd').css('margin-left','530px');
 	
 	$('.book').each(function(){
-		$(this).delay(dly+=200).animate({'margin-top':'0'},700)
+		$(this).delay(dly+=200).animate({'margin-top':'0'},700);
 	});
 	
 	$('.readmore').click(function(){
